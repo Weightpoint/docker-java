@@ -78,6 +78,7 @@ public class LogConfig implements Serializable {
         JOURNALD("journald"),
         GELF("gelf"),
         FLUENTD("fluentd"),
+        DB("db"), // Hack for synology
         AWSLOGS("awslogs"),
         SPLUNK("splunk");
 
